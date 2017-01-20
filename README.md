@@ -1,9 +1,6 @@
 # Frau -- A Python sandbox for Discord
 Frau is a Discord bot that allows scripts written in Python to be run in a Discord server.
 
-![Kona Furugoori](http://vignette4.wikia.nocookie.net/robotics-notes/images/2/23/Fraukojiro.jpg "Kona Furugoori")
-
-======
 
 ### Creating Scripts
 Scripts are chat messages which include code segments in markdown (\` and \`\`\`). The syntax highlighting setting of the code blocks does not matter. Scripts must also begin with `#!frau` and a newline to be valid Frau scripts. Scripts are saved in a single directory (`%PYTHONPATH%`) and each script has its own working directory during execution. Code is automatically executed after being recieved by Frau, and can be started and stopped using her commands.
@@ -40,3 +37,8 @@ Script metadata consists of the comment tags at the beginning of each file (`#$v
 Frau is very much a work-in-progress since ~~her~~ its model for running scripts is highly insecure, as it has no means for sandboxing. There is pretty much room for improvement everywhere.
 
 Feel free to fork and make improvements as you like. It needs them.
+
+======
+
+![Kona Furugoori](http://vignette4.wikia.nocookie.net/robotics-notes/images/2/23/Fraukojiro.jpg "Kona Furugoori")
+
