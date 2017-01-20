@@ -34,7 +34,7 @@ Script metadata consists of the comment tags at the beginning of each file (`#$v
 | service | true/false | Defines whether or not to redirect chat to a script |
 
 ### Development and Futurology
-Frau is very much a work-in-progress since ~~her~~ its model for running scripts is highly insecure, as it has no means for sandboxing. There is pretty much room for improvement everywhere.
+Frau is very much a work-in-progress since ~~her~~ its model for running scripts is highly insecure, as it has no means for controlling filesystem access. There is pretty much room for improvement everywhere.
 
 Feel free to fork and make improvements as you like. It needs them.
 
