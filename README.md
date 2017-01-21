@@ -42,7 +42,9 @@ General TODO:
 * Make script execution secure. (Limit script file IO to their working directory.)
 * Come up with a *real* method for saving and organizing scripts.
 * Make the Discord API fully available to scripts and fix services.
+* Beautify all of the process interop stuff (ScriptService, etc).
 * Better editing?
+* Maybe implement `help` as some sort of loosely-coded chatbot?
 
 ======
 
