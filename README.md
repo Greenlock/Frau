@@ -38,6 +38,12 @@ Frau is very much a work-in-progress since ~~her~~ its model for running scripts
 
 Feel free to fork and make improvements as you like. It needs them.
 
+General TODO:
+* Make script execution secure. (Limit script file IO to their working directory.)
+* Come up with a *real* method for saving and organizing scripts.
+* Make the Discord API fully available to scripts and fix services.
+* Better editing?
+
 ======
 
 ![Kona Furugoori](http://vignette4.wikia.nocookie.net/robotics-notes/images/2/23/Fraukojiro.jpg "Kona Furugoori")
